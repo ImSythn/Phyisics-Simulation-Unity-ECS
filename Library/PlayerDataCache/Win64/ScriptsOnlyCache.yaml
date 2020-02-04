@@ -1,0 +1,428 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AccelerationDataAuthoring
+    - BrownSquareTagAuthoring
+    - DensityDataAuthoring
+    - EnergyLossDataAuthoring
+    - FluidTagAuthoring
+    - GravityDataAuthoring
+    - GreenCircleTagAuthoring
+    - GreenSquareTagAuthoring
+    - LastPositionDataAuthoring
+    - MassDataAuthoring
+    - OrientationDataAuthoring
+    - RedCircleTagAuthoring
+    - SpringConstantDataAuthoring
+    - SpringDataAuthoring
+    - SpringTagAuthoring
+    - SquareTagAuthoring
+    - VelocityDataAuthoring
+    - WallTagAuthoring
+    Unity.Entities.Editor.dll:
+    - Unity.Entities.Editor.EntityDebugger
+    - Unity.Entities.Editor.EntitySelectionProxy
+    - Unity.Entities.Editor.GUIStyleAsset
+    Unity.Entities.Hybrid.dll:
+    - Unity.Entities.ConvertToEntity
+    Unity.Scenes.Editor.dll:
+    - Unity.Scenes.Editor.EditorSceneLiveLinkToPlayerSendSystem
+    - Unity.Scenes.Editor.LiveLinkAssetBundleBuildSystem
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11612}
+    - Class: 114
+      Script: {instanceID: 11888}
+    - Class: 114
+      Script: {instanceID: 11908}
+    - Class: 114
+      Script: {instanceID: 12248}
+    - Class: 114
+      Script: {instanceID: 12282}
+    - Class: 114
+      Script: {instanceID: 12294}
+    - Class: 114
+      Script: {instanceID: 12402}
+    - Class: 114
+      Script: {instanceID: 12516}
+    - Class: 114
+      Script: {instanceID: 12708}
+    - Class: 114
+      Script: {instanceID: 12752}
+    - Class: 114
+      Script: {instanceID: 13016}
+    - Class: 114
+      Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 13504}
+    - Class: 114
+      Script: {instanceID: 13548}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13736}
+    - Class: 114
+      Script: {instanceID: 13932}
+    - Class: 114
+      Script: {instanceID: 14002}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: 
+    className: StopConvertToEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpringTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 0f742b3de6fcd857a00123824e0dda19
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: LocalToWorldProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: CopyTransformToGameObjectProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 10ce8338bd6c1531f7460b0d31d4d767
+    assemblyName: Unity.Rendering.Hybrid.dll
+    namespaceName: Unity.Rendering
+    className: RenderMeshProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SquareTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: StaticOptimizeEntity
+  - hash:
+      serializedVersion: 2
+      Hash: e42bf5c4a4cf3b7eceecdad281f7a908
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: ReferencedUnityObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 5c750b554c09e3314801185ec0164ca5
+    assemblyName: Unity.Scenes.Hybrid.dll
+    namespaceName: Unity.Scenes
+    className: SubScene
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GreenCircleTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 63d0a9b91140392423c7be42b2ec282d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnergyLossDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: cbc1248486a769b34b3983feacc2701a
+    assemblyName: Unity.Rendering.Hybrid.dll
+    namespaceName: Unity.Rendering
+    className: HLOD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GravityTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimulationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: CompanionLink
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BrownSquareTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: cfd21f98b7aea32e2cd17127fed0496b
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: TranslationProxy
+  - hash:
+      serializedVersion: 2
+      Hash: bb637ed92a5373354a2de322bc9e056b
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: RotationProxy
+  - hash:
+      serializedVersion: 2
+      Hash: eca02a967700dc17433640a7c1e780bc
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: ConvertToEntity
+  - hash:
+      serializedVersion: 2
+      Hash: d039bc0591abd12a4f0383a531b6398f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VelocityDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: ec230201bd8ff427ffc57e6005f7e5a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LastPositionDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 25c391c825ebcd0d3d9622edd606cb84
+    assemblyName: Unity.Rendering.Hybrid.dll
+    namespaceName: Unity.Rendering.Authoring
+    className: MaterialColor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GreenSquareTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CircleTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 99bf41af47f20a1414178381f50e1a84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VolumeDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 13d70280824f471c95c35077b21df56d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpringConstantDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 8d8ab02f576c3b0af489e54a5a99c501
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AccelerationDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 25cdc8ab4e25b7d5e23286e11172925e
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: 
+    className: SceneSectionComponent
+  - hash:
+      serializedVersion: 2
+      Hash: a8cdc690f003c0ece44d3df0c3cc1f78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OrientationDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: c31977149fab312f2709d76f9dd29cb0
+    assemblyName: Unity.Entities.dll
+    namespaceName: Unity.Entities.Serialization
+    className: AssetObjectManifest
+  - hash:
+      serializedVersion: 2
+      Hash: 63d0a9b91140392423c7be42b2ec282d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DisplacementDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 04dd98a7110cdca6b5ed095649363664
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: DefaultWorldInitializationProxy
+  - hash:
+      serializedVersion: 2
+      Hash: b6e258cd6c0f0f4c5aab6a34581e15c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpringDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: f371e512f7775624df64b9e170284933
+    assemblyName: Unity.ScriptableBuildPipeline.dll
+    namespaceName: UnityEngine.Build.Pipeline
+    className: CompatibilityAssetBundleManifest
+  - hash:
+      serializedVersion: 2
+      Hash: 97e5b77a9107f5cce1e631bee9fb434d
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: 
+    className: SceneSectionProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: CopyInitialTransformFromGameObjectProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 76dc10de87a1b7961e27d72b45210b39
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: NonUniformScaleProxy
+  - hash:
+      serializedVersion: 2
+      Hash: c6e06d9cf23c0e01b150678b7caf3b7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GravityDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FluidTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: a85f9d6dca8efe28ef2f0c4fe8bed7db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DensityDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WallTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.PerformanceTesting.dll
+    namespaceName: Unity.PerformanceTesting.Measurements
+    className: ProfilerMarkerMeasurement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RedCircleTagAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 30a42dc8c72a34eedcbc4391a2456397
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MassDataAuthoring
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Entities.Hybrid.dll
+    namespaceName: Unity.Entities
+    className: GameObjectEntity
+  - hash:
+      serializedVersion: 2
+      Hash: c9d333a19a0f34e6eb353f3d4a20663c
+    assemblyName: Unity.Rendering.Hybrid.dll
+    namespaceName: Unity.Rendering
+    className: FrozenRenderSceneTagProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: b4d278bcca1055fd3c9791d00a07fcfd
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Transforms.Hybrid.dll
+    namespaceName: Unity.Transforms
+    className: CopyTransformFromGameObjectProxy
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/spell/OneDrive/Physics simulation build 2/Physics simulation.exe
